@@ -1,68 +1,68 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>slmatthew</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background-color: #fff;
-        }
-        .container {
-            background-color: #fff;
-            padding: 2rem;
-            border-radius: 10px;
-            /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
-            max-width: 600px;
-            text-align: center;
-        }
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-        }
-        p {
-            margin-bottom: 1.5rem;
-            font-size: 1.1rem;
-        }
-        a {
-            color: #007aff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-		ul {
-			list-style-type: none;
-		}
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>👋 Привет, это @slmatthew</h1>
-        <p><span id="age">19</span> лет, <a href="https://t.me/salomatu4ak" target="_blank">музыкант</a> и разработчик</p>
-
-    </div>
-	<script defer>
-		function calculateAge(birthDate) {
-            const today = new Date();
-            const birth = new Date(birthDate);
-            let age = today.getFullYear() - birth.getFullYear();
-            const monthDiff = today.getMonth() - birth.getMonth();
-            if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birth.getDate())) {
-                age--;
-            }
-            return age;
-        }
-
-        document.getElementById('age').textContent = calculateAge('2005-12-03');
-	</script>
-</body>
+	<head>
+		<title>сало матучак</title>
+		<meta charset="UTF-8">
+		<meta property="og:title" content="сало матучак" />
+		<meta property="og:description" name="description" content="самые крутые здесь" />
+		<meta property="og:image" content="./static/images/social.png" />
+		<meta name="keywords" content="slmatthew, Матвей Вишневский, softplunx, сало матучак, salomatu4ak, slm, кирилл величко, мс толстопуз, матучак, matu4ak, matuhak, новопетровск, новопетровское, румянцево, головино" />
+		<meta name="author" content="slmatthew" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="./static/css/about.css?2501" />
+		<link rel="icon" href="./favicon.ico" /> <!-- 32×32 -->
+		<link rel="icon" href="./images/icons/icon.svg" type="image/svg+xml" />
+		<link rel="apple-touch-icon" href="./images/icons/180.png" />  <!-- 180×180 -->
+	</head>
+	<body>
+		<header>
+			<div class="header">
+				<div class="header-image">
+					<label class="image header-image_avatar"></label>
+				</div>
+				<div class="header-text"><h1>сало матучак</h1><p><a href="https://band.link/x3iFj" target="_blank" rel="nofollow">музыкальная группа</a>, клуб юмористов, футбольные обозреватели и просто крутые ребята</p></div>
+			</div>
+		</header>
+		<main>
+			<a href="https://t.me/matu4ak" target="_blank" rel="nofollow">
+				<div class="main-block">
+					<div class="main-block-wrap">
+						<div class="block-image">
+							<div class="block-image_wrap telegram">
+								<label class="image block_image telegram"></label>
+							</div>
+						</div>
+						<div class="block-text">
+							<div class="text-primary">
+								Telegram-канал
+							</div>
+							<div class="text-secondary">
+								Официальный и крутой
+							</div>
+						</div>
+					</div>
+				</div>
+			</a>
+			<a href="https://band.link/salomatu4ak" target="_blank" rel="nofollow">
+				<div class="main-block">
+					<div class="main-block-wrap">
+						<div class="block-image">
+							<div class="block-image_wrap music">
+								<label class="image block_image music"></label>
+							</div>
+						</div>
+						<div class="block-text">
+							<div class="text-primary">
+								Послушать треки
+							</div>
+							<div class="text-secondary">
+								Любимый стриминг
+							</div>
+						</div>
+					</div>
+				</div>
+			</a>
+		</main>
+	</body>
 </html>
